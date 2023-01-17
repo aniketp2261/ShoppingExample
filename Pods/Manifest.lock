@@ -1,0 +1,26 @@
+PODS:
+  - Alamofire (5.6.4)
+  - EMTNeumorphicView (1.0.4)
+  - SDWebImage (5.12.6):
+    - SDWebImage/Core (= 5.12.6)
+  - SDWebImage/Core (5.12.6)
+
+DEPENDENCIES:
+  - Alamofire
+  - EMTNeumorphicView
+  - SDWebImage (= 5.12.6)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - EMTNeumorphicView
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  EMTNeumorphicView: cb5e92953e43b1872ab47fefd451a9ce0c16fc77
+  SDWebImage: a47aea9e3d8816015db4e523daff50cfd294499d
+
+PODFILE CHECKSUM: d29b53a2970ae92b58fa91ce6be2c0f9cb582727
+
+COCOAPODS: 1.11.3

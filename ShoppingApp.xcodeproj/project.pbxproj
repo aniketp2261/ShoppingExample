@@ -19,6 +19,7 @@
 		1F67A74E2976908E00907A91 /* ColorsCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F67A74C2976908E00907A91 /* ColorsCVC.swift */; };
 		1F67A74F2976908E00907A91 /* ColorsCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F67A74D2976908E00907A91 /* ColorsCVC.xib */; };
 		1F67A7512976915D00907A91 /* ExtensionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F67A7502976915D00907A91 /* ExtensionManager.swift */; };
+		1F67A7552977C70500907A91 /* ImageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F67A7542977C70500907A91 /* ImageDetailViewController.swift */; };
 		F7EC5161A5DE93830B8B32E4 /* Pods_ShoppingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 410E42F07DAC31BDF711A048 /* Pods_ShoppingApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		1F67A74C2976908E00907A91 /* ColorsCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsCVC.swift; sourceTree = "<group>"; };
 		1F67A74D2976908E00907A91 /* ColorsCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColorsCVC.xib; sourceTree = "<group>"; };
 		1F67A7502976915D00907A91 /* ExtensionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionManager.swift; sourceTree = "<group>"; };
+		1F67A7542977C70500907A91 /* ImageDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailViewController.swift; sourceTree = "<group>"; };
 		410E42F07DAC31BDF711A048 /* Pods_ShoppingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShoppingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D958E4691DDF5342D4341A4C /* Pods-ShoppingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppingApp.release.xcconfig"; path = "Target Support Files/Pods-ShoppingApp/Pods-ShoppingApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,6 +87,7 @@
 				1F67A73B2976707A00907A91 /* LaunchScreen.storyboard */,
 				1F67A73E2976707A00907A91 /* Info.plist */,
 				1F67A7502976915D00907A91 /* ExtensionManager.swift */,
+				1F67A7542977C70500907A91 /* ImageDetailViewController.swift */,
 			);
 			path = ShoppingApp;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 				1F67A74629767C0C00907A91 /* DataModel.swift in Sources */,
 				1F67A7312976707800907A91 /* AppDelegate.swift in Sources */,
 				1F67A7332976707800907A91 /* SceneDelegate.swift in Sources */,
+				1F67A7552977C70500907A91 /* ImageDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

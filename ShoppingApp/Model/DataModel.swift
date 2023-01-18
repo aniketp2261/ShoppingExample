@@ -9,9 +9,9 @@ import Foundation
 
 // MARK: - DataModel
 struct DataModel: Codable {
-    var status: Int
-    var message: String
-    var data: Data
+    var status: Int?
+    var message: String?
+    var data: Data?
 }
 
 // MARK: - Data
@@ -27,7 +27,7 @@ struct Data: Codable {
     var metaTitle, metaKeyword, metaDescription: String?
     var wishlistItemID: Int?
     var hasOptions: String?
-    var configurableOption: [ConfigurableOption]
+    var configurableOption: [ConfigurableOption]?
     var remainingQty: Int?
     var images: [String]?
 
@@ -58,7 +58,7 @@ struct Data: Codable {
 struct ConfigurableOption: Codable {
     var attributeID: Int?
     var attributeLabel, type, attributeCode: String?
-    var attributes: [Attribute]
+    var attributes: [Attribute]?
 
     enum CodingKeys: String, CodingKey {
         case attributeID = "attribute_id"

@@ -29,10 +29,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var addToBagBtn: EMTNeumorphicButton!
     @IBOutlet weak var skuLbl: UILabel!
     
-    var dataModel: DataModel? = nil
-    var images: [String] = [] {
+    private var dataModel: DataModel? = nil
+    private var images: [String] = [] {
         didSet{
-            print("didSet---- \(images.count)")
             DispatchQueue.main.async {
                 self.pageControl.currentPage = 0
                 self.pageControl.numberOfPages = self.images.count
@@ -169,7 +168,7 @@ class ViewController: UIViewController {
         addToBagBtn.neumorphicLayer?.shadowOpacity = 1
         addToBagBtn.neumorphicLayer?.depthType = .convex
     }
-    func hexStringToUIColor (hex:String) -> UIColor {
+    private func hexStringToUIColor (hex:String) -> UIColor {
         var cString:String = hex.trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
         if (cString.hasPrefix("#")) {
             cString.remove(at: cString.startIndex)
@@ -187,7 +186,7 @@ class ViewController: UIViewController {
         )
     }
 }
-extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate,UICollectionViewDelegateFlowLayout{
+extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate,  UICollectionViewDelegateFlowLayout{
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         if collectionView == itemImgCV{
             return self.images.count
@@ -206,6 +205,7 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate,U
         if collectionView == itemImgCV{
             if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ImagesCVC", for: indexPath) as? ImagesCVC{
                 let data = images[indexPath.row]
+                cell.Imgs.sd_imageIndicator = SDWebImageActivityIndicator.grayLarge
                 cell.Imgs.sd_setImage(with: URL(string: data), completed: nil)
                 return cell
             }

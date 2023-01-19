@@ -56,6 +56,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F34DF8D29791932001CEF4E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1F67A7482976907B00907A91 /* ImagesCVC.swift */,
+				1F67A7492976907B00907A91 /* ImagesCVC.xib */,
+				1F67A74C2976908E00907A91 /* ColorsCVC.swift */,
+				1F67A74D2976908E00907A91 /* ColorsCVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1F34DF8E297919AB001CEF4E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1F67A7342976707800907A91 /* ViewController.swift */,
+				1F67A7542977C70500907A91 /* ImageDetailViewController.swift */,
+				1F67A7502976915D00907A91 /* ExtensionManager.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		1F67A7242976707800907A91 = {
 			isa = PBXGroup;
 			children = (
@@ -78,16 +99,14 @@
 			isa = PBXGroup;
 			children = (
 				1F67A74429767A7300907A91 /* Model */,
-				1F67A7472976905000907A91 /* Cell Class */,
+				1F34DF8D29791932001CEF4E /* View */,
+				1F34DF8E297919AB001CEF4E /* Controller */,
 				1F67A7302976707800907A91 /* AppDelegate.swift */,
 				1F67A7322976707800907A91 /* SceneDelegate.swift */,
-				1F67A7342976707800907A91 /* ViewController.swift */,
 				1F67A7362976707800907A91 /* Main.storyboard */,
-				1F67A7392976707A00907A91 /* Assets.xcassets */,
 				1F67A73B2976707A00907A91 /* LaunchScreen.storyboard */,
+				1F67A7392976707A00907A91 /* Assets.xcassets */,
 				1F67A73E2976707A00907A91 /* Info.plist */,
-				1F67A7502976915D00907A91 /* ExtensionManager.swift */,
-				1F67A7542977C70500907A91 /* ImageDetailViewController.swift */,
 			);
 			path = ShoppingApp;
 			sourceTree = "<group>";
@@ -98,17 +117,6 @@
 				1F67A74529767C0C00907A91 /* DataModel.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		1F67A7472976905000907A91 /* Cell Class */ = {
-			isa = PBXGroup;
-			children = (
-				1F67A7482976907B00907A91 /* ImagesCVC.swift */,
-				1F67A7492976907B00907A91 /* ImagesCVC.xib */,
-				1F67A74C2976908E00907A91 /* ColorsCVC.swift */,
-				1F67A74D2976908E00907A91 /* ColorsCVC.xib */,
-			);
-			path = "Cell Class";
 			sourceTree = "<group>";
 		};
 		B0F5D3439B728B9AE2665EA5 /* Frameworks */ = {

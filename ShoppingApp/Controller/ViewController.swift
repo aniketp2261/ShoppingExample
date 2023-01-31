@@ -80,7 +80,6 @@ class ViewController: UIViewController {
                 print(error)
             }
         }
-        
 //        let request = URLRequest(url: URL(string: "https://www.minisokw.com/rest/V3/inosolnapiV1/productdetails/947/0?lang=e")!)
 //        URLSession.shared.dataTask(with: request) { (data, response, error) in
 //            if let response = response {
